@@ -1,0 +1,41 @@
+.features-container {
+  display: grid;
+  margin-top: 7.2rem;
+  width: 100%;
+  max-width: 1110px;
+  gap: 3rem;
+}
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+.first-second-container {
+  max-width: 730px;
+  width: 100%;
+  display: grid;
+
+}
+/* .feature.first, .feature.second{
+    max-width: 350px;
+} */
+.feature > img {
+  height: 100%;
+  width: 100%;
+  max-width: 10rem;
+}
+span {
+  display: block;
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+}
+span.number {
+  font-size: 2.5rem;
+  color: var(--color-soft-red);
+}
+span.title {
+  font-size: 1.8rem;
+  color: var(--color-very-dark-blue);
+  cursor: pointer;
+
+}

@@ -1,0 +1,39 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+  position: relative;
+  z-index: 10;
+}
+/* Initially hide the toggle icons */
+.toggle-icon-container {
+  display: none;
+  cursor: pointer;
+}
+.logo {
+  cursor: pointer;
+}
+.navbar-icon.close{
+  width: 4.5rem;
+}
+.nav-links-container,
+li {
+  display: flex;
+  gap: 4.2rem;
+}
+
+.navbar-mask {
+  display: none;
+  width: 68.26vw;
+  min-height: 100dvh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: hsla(0, 0%, 0%, 0.008);
+  backdrop-filter: blur(5px)brightness(0.1);
+}
+.navbar-mask.show {
+  display: block;
+}
